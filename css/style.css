@@ -29,7 +29,7 @@ main {
 
 .container {
     width: 70%;
-    max-width: 500px;
+    max-width: 550px;
 }
 
 h1 {
@@ -42,6 +42,12 @@ p {
     font-weight: 400;
     font-size: 0.87rem;
     color: rgb(117, 100, 76);
+    margin-top: 1.5rem;
+}
+
+#show-emoji {
+    font-size: 5rem;
+    margin: 2rem;
 }
 
 button {
@@ -57,4 +63,10 @@ button {
 button:hover {
     background-color: var(--pink);
     outline: 3px solid var(--darkerPink);
+}
+
+.credit {
+    font-size: 0.65rem;
+    margin: 1rem;
+    font-weight: 300;
 }
