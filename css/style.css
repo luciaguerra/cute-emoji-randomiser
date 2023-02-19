@@ -46,7 +46,9 @@ p {
 }
 
 #show-emoji {
-    font-size: 5rem;
+    width: 80%;
+    max-width: 300px;
+    font-size: 3rem;
     margin: 2rem;
 }
 
