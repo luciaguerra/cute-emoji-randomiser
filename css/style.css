@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
-    --beige: #FFFFE8;
-    --pink: #faa9a9;
-    --darkerPink: #f29198;
+    --backgroundColor: #FFFFE8;
+    --neutralColor: #faa9a9;
+    --primaryColor: #f29198;
+    --fontColor: #75644c;
 }
 
 body, button {
@@ -13,8 +14,8 @@ body, button {
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--beige);
-    color: var(--darkerPink);
+    background-color: var(--backgroundColor);
+    color: var(--fontColor);
 }
 
 main {
@@ -36,13 +37,13 @@ h1 {
     font-weight: 700;
     font-size: 1.75rem;
     line-height: 1.1;
+    color: var(--primaryColor);
 }
 
 p {
     font-weight: 400;
     font-size: 0.87rem;
-    color: rgb(117, 100, 76);
-    margin-top: 1.5rem;
+    margin: 1.5rem 0 0;
 }
 
 #show-emoji {
@@ -52,7 +53,7 @@ p {
 
 button {
     border: none;
-    background-color: var(--darkerPink);
+    background-color: var(--primaryColor);
     padding: 0.5rem 1rem;
     border-radius: 2rem;
     color: white;
@@ -61,8 +62,8 @@ button {
 }
 
 button:hover {
-    background-color: var(--pink);
-    outline: 3px solid var(--darkerPink);
+    background-color: var(--neutralColor);
+    outline: 3px solid var(--primaryColor);
 }
 
 .credit {
